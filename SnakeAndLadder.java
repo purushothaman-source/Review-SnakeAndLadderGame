@@ -4,7 +4,7 @@ import java.util.Random;
 class SnakeAndLadderGame{
 	public static void random() {
 		Random random =new Random();
-		int rollDie=random.nextInt(7);
+		int rollDie=random.nextInt(6)+1;
 	}
 }
 //MainClass
